@@ -30,3 +30,4 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 ## Video Walkthrough
+https://watch.screencastify.com/v/BO4pgEVlivrNkBW9pKkM
