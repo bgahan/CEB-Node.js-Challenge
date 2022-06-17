@@ -11,8 +11,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return
-    `\n* [License](#license)\n`
+    return (
+      `* [License](#license)`
+    )
   }
   return ''
 }
@@ -55,8 +56,8 @@ function generateMarkdown(data) {
   ${data.test}
   ## Questions
   If you have any questions you can reach out at:
-  ${data.github}
-  ${data.email}
+  *${data.github}
+  *${data.email}
 `;
 }
 
