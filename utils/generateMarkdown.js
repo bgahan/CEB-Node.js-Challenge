@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   ## Table of Contents
   *[Installation Instructions](#installation_instructions)
   *[Usage](#usage)
-  ${renderLicenseLink()}
+  ${renderLicenseLink(data.license)}
   *[Contributing Guidelines](#contributing_guidelines)
   *[Tests](#tests)
   *[Questions](#questions)
@@ -48,7 +48,7 @@ function generateMarkdown(data) {
   ${data.install}
   ## Usage
   ${data.usage}
-  ${renderLicenseSection}
+  ${renderLicenseSection(data.license)}
   ## Contributing Guidelines
   ${data.guideline}
   ## Tests
