@@ -39,12 +39,12 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
   ## Table of Contents
-  *[Installation Instructions](#installation_instructions)
-  *[Usage](#usage)
+  * [Installation Instructions](#installation_instructions)
+  * [Usage](#usage)
   ${renderLicenseLink(data.license)}
-  *[Contributing Guidelines](#contributing_guidelines)
-  *[Tests](#tests)
-  *[Questions](#questions)
+  * [Contributing Guidelines](#contributing_guidelines)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Installation Instructions
   ${data.install}
   ## Usage
@@ -56,8 +56,8 @@ function generateMarkdown(data) {
   ${data.test}
   ## Questions
   If you have any questions you can reach out at:
-  *${data.github}
-  *${data.email}
+  * ${data.github}
+  * ${data.email}
 `;
 }
 
